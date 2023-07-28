@@ -15,7 +15,6 @@ export const Home = ({ className }: HomeProps) => {
     return (
         <div className={classNames(styles.root, className)}>
             <Intro />
-
         </div>
     );
-};
+}

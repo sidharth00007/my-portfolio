@@ -36,7 +36,7 @@ export const Intro = ({ className }: IntroProps) => {
                 <motion.svg
                     height="4"
                     viewBox="0 0 204 4"
-                    fill="none"
+                    // fill="none"
                     xmlns="http://www.w3.org/2000/svg"
                     className={classNames(styles.line, styles.path)}
                 >
@@ -59,8 +59,8 @@ export const Intro = ({ className }: IntroProps) => {
                             y2="2"
                             gradientUnits="userSpaceOnUse"
                         >
-                            <stop stop-color="#DC3284" />
-                            <stop offset="1" stop-color="#DC3232" />
+                            <stop stopColor="#DC3284" />
+                            <stop offset="1" stopColor="#DC3232" />
                         </linearGradient>
                     </defs>
                 </motion.svg>

@@ -44,8 +44,8 @@ export const Portfolio = ({ className }: PortfolioProps) => {
                             y2="2"
                             gradientUnits="userSpaceOnUse"
                         >
-                            <stop stop-color="#DC3284" />
-                            <stop offset="1" stop-color="#DC3232" />
+                            <stop stopColor="#DC3284" />
+                            <stop offset="1" stopColor="#DC3232" />
                         </linearGradient>
                     </defs>
                 </motion.svg>
