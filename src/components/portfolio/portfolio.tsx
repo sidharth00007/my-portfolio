@@ -1,6 +1,6 @@
 import classNames from 'classnames';
 import styles from './portfolio.module.scss';
-import website_1 from '../../assets/website_1.png';
+import website_1 from '../../../src/assets/website_1.png';
 import website_2 from '../../assets/website_2.png';
 import website_3 from '../../assets/website_3.png';
 import { motion, useMotionValue, useTransform } from 'framer-motion';
