@@ -1,8 +1,8 @@
 import classNames from 'classnames';
 import styles from './portfolio.module.scss';
-import website_1 from '../../../src/assets/website_1.png';
-import website_2 from '../../assets/website_2.png';
-import website_3 from '../../assets/website_3.png';
+import website_1 from '../../../src/assets/website-1.png';
+import website_2 from '../../assets/website-2.png';
+import website_3 from '../../assets/website-3.png';
 import { motion, useMotionValue, useTransform } from 'framer-motion';
 
 export interface PortfolioProps {
@@ -52,7 +52,7 @@ export const Portfolio = ({ className }: PortfolioProps) => {
                 <p className={styles.p}>
                     I am a web developer with a passion for creating beautiful and functional
                     websites. I have a strong understanding of{' '}
-                    <span className={styles.span}>HTML, CSS, JavaScript</span>, and ReactJs, and I am
+                    <span className={styles.span}>HTML, CSS, JavaScript, and ReactJs</span>, and I am
                     proficient in a variety of back-end frameworks. I am also a{' '}
                     <span className={styles.span}>creative thinker</span> and I am always looking
                     for new ways to solve problems.
