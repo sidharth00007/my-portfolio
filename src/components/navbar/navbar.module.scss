@@ -1,0 +1,39 @@
+.root {
+  gap: 45rem;
+}
+
+.logo {
+  font-size: 1em;
+  color: black;
+}
+.links {
+  list-style-type: none;
+  display: flex;
+  gap: 3em;
+}
+.nav {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  margin: 0% ;
+  padding: 1rem 0rem;
+  background-color: #ffffff;
+  position: sticky;
+  top: 0px;
+  z-index: 50;
+}
+
+@media screen and (max-width: 720px) {
+  .nav {
+    flex-direction: column;
+    gap: 1rem;
+  }
+}
+@media screen and (max-width: 720px) {
+  .nav {
+    flex-direction: column;
+    gap: 1rem;
+    margin: 0% 3%;
+  }
+}
+
