@@ -1,9 +1,10 @@
 import classNames from 'classnames';
 import styles from './portfolio.module.scss';
 import website_1 from '../../../src/assets/website-1.png';
-import website_2 from '../../assets/website-2.png';
+// import website_2 from '../../assets/website-2.png';
 // import website_3 from '../../assets/website-3.png';
 import website_4 from '../../assets/website-4.png';
+import website_5 from '../../assets/website-5.png'
 
 import { motion, useMotionValue, useTransform } from 'framer-motion';
 
@@ -62,6 +63,13 @@ export const Portfolio = ({ className }: PortfolioProps) => {
             </div>
             <div className={styles.grid}>
                 <motion.div className={styles['grid-item']}>
+                    <img src={website_5} className={styles['grid-img']} />
+                    <div className={styles['visit-portofolio']}>
+                        <h4 className={styles.h4}>Homyz | Full Stack Web App (MERN)</h4>
+                        <a href="https://homyz-psi.vercel.app">Visit </a>
+                    </div>
+                </motion.div>
+                <motion.div className={styles['grid-item']}>
                     <img src={website_4} className={styles['grid-img']} />
                     <div className={styles['visit-portofolio']}>
                         <h4 className={styles.h4}>YoFood | Full Stack Web App (MERN)</h4>
@@ -76,13 +84,7 @@ export const Portfolio = ({ className }: PortfolioProps) => {
                     </div>
                 </motion.div>
 
-                <motion.div className={styles['grid-item']}>
-                    <img src={website_2} className={styles['grid-img']} />
-                    <div className={styles['visit-portofolio']}>
-                        <h4 className={styles.h4}>Smart Canteen- Web App</h4>
-                        <a href="https://smart-canteen-yorr.netlify.app/">Visit </a>
-                    </div>
-                </motion.div>
+                
 
             </div>
             <div className={styles.socials}>
