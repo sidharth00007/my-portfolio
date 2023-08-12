@@ -5,6 +5,7 @@ import website_1 from '../../../src/assets/website-1.png';
 // import website_3 from '../../assets/website-3.png';
 import website_4 from '../../assets/website-4.png';
 import website_5 from '../../assets/website-5.png'
+import website_6 from '../../assets/website-6.png'
 
 import { motion, useMotionValue, useTransform } from 'framer-motion';
 
@@ -62,6 +63,13 @@ export const Portfolio = ({ className }: PortfolioProps) => {
                 </p>
             </div>
             <div className={styles.grid}>
+                <motion.div className={styles['grid-item']}>
+                    <img src={website_6} className={styles['grid-img']} />
+                    <div className={styles['visit-portofolio']}>
+                        <h4 className={styles.h4}>Connectify | Full Stack Web App (MERN)</h4>
+                        <a href="https://connectifyy.vercel.app/home">Visit </a>
+                    </div>
+                </motion.div>
                 <motion.div className={styles['grid-item']}>
                     <img src={website_5} className={styles['grid-img']} />
                     <div className={styles['visit-portofolio']}>
